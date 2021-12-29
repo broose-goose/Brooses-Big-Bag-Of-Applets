@@ -4,5 +4,10 @@ export interface ChildProps {
 }
 
 export type AppletsStackParamList = {
-    Home: undefined;
+    Root: undefined;
+    PiWiFi: undefined
 };
+
+export type PiWiFiStackParamList = {
+    'PiWiFi/root': undefined
+}
